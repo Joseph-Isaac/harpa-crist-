@@ -62,13 +62,13 @@ const Home = ({navigation}: any) => {
         
         
       </View>
-
-      {search !== ''? listSearched().map((item)=>(
-        <Item music={item} key={item.titulo}/>
-      )) : musics.hinos.map((item)=>(
-        <Item music={item} key={item.titulo}/>
-      ))}
-      
+      <FlatList 
+        showsVerticalScrollIndicator={false}
+        data={search !== '' ? listSearched() : musics.hinos}
+        renderItem={({item}) => <Item music={item}/>}
+        keyExtractor={item => item.titulo}
+        contentContainerStyle={styles.flatList}
+      />
       
     </View>
   )
