@@ -1,11 +1,11 @@
-#Aplicativo da Harpa Cristã
+# Aplicativo da Harpa Cristã
 
 App simples da harpa cristã que envolve listar uma lista mockada de hinos. O tema é escuro, existe um sistema de busca e de aumentar ou diminuir a fonte quando se abre algum hino.
 
 
 Alguns hinos, especialmente entre 400 e 500 estão desordenados
 
-#Para rodar o app
+# Para rodar o app
 
 dê os seguintes comandos no terminal
 
